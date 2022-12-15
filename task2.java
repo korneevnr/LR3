@@ -37,7 +37,6 @@ public class Main {
         }
         String[] array = s.replaceAll(String.valueOf(X), "").replaceAll("  ", " ").split(" ");
         int[] results = new int[array.length];
-        System.out.println(array.length);
         for(int i = 0; i < array.length; i++) {
             results[i] = Integer.parseInt(array[i]);
         }
